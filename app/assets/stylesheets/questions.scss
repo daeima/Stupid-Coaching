@@ -1,0 +1,51 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+ $gray: #F4F4F4;
+
+ body {
+   background: $gray; // Using this variable
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+  h1 {
+    font-size: 50px;
+  }
+
+
+  a {
+   color: grey;
+   text-decoration: none;
+   &:hover {
+     color: black;
+   }
+ }
+
+ .bolder {
+   font-weight: 700;
+ }
+
+ .italic {
+   font-style: italic;
+ }
+
+ .input {
+   margin: 10px 0px;
+   border-radius: 3px;
+   padding: 8px;
+ }
+
+ .blue {
+   background-color: cornflowerblue;
+ }
+
+ .left-border {
+   border-left: 4px solid grey;
+   margin: 10px;
+   padding: 5px;
+ }
+
+ .background {
+   background-color: lightyellow;
+ }
